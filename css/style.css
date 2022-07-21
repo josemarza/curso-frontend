@@ -1,0 +1,115 @@
+#titulo {  /*para seleccionar los elementos con el id, se utiliza un # */
+    color: tomato
+}
+
+/* se usa el punto .nombredelaclase para trabajar con clases el ejemplo de abajo usa la clase texto*/ 
+
+p.texto {
+    color: slateblue
+}
+
+p.especial {
+    color: mediumaquamarine
+}
+
+div h2, div h3 {
+    color:blue
+}
+
+div p {
+    color:blueviolet
+}
+
+* {
+    font-size: 24px;
+    /* color:black; */
+}
+/* tambien es un comentario */
+
+/* esto es un comentario con 
+muchas lineas
+*/
+
+/*
+.color {
+    color:#ff00ff
+}
+.color {
+    color: rgb(0, 220,75)
+}
+*/
+
+.color {
+    /* border: 5px deeppink dotted; */
+    /*opciones de border
+    dotted
+    dashed
+    solid
+    double
+    groove
+    ridge
+    inset
+    outset
+    none
+    hidden
+
+*/
+border-style: solid;
+border-color: brown;
+border-radius: 5px;
+border-width: 5px;
+}
+
+#fondo {
+    font-size: 50px;
+    color: wheat;
+    background-color: rgba(255, 0, 0, 0.1);
+    height: 300px;
+    
+    /* background-image: url('goku2.jpg');
+    background-size: 500px 200px;
+    background-repeat: repeat-y;
+    background-position: center top; */
+    background: #fff url('goku2.jpg') repeat-y center top  / 500px 200px;  
+}  
+
+.margen {
+    /* background-color: chocolate;
+    margin: 15px 20px 25px 30px;
+    padding: 30px 25px 20px 15px;
+    border: solid 3px black ; */
+
+    background-color: chocolate;
+    margin: 15px;
+    padding: 30px 15px 5px;
+    border: solid 5px black;
+    height: 100px;
+    width: 50px;
+    overflow: scroll;
+    outline: 5px solid red;
+}
+
+.text {
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+    text-decoration: overline;
+    text-shadow: 3px 5px 5px gray;
+}
+
+/*Se debe respetar el orden de configuracion de estos elementos. Se configura en este orden::after
+1) link, 2) visited, 3) hover, 4) active*/
+
+a:link {
+    color: blueviolet;
+}
+a:visited {
+    color: gray;
+}
+
+a:hover {
+    color: yellow
+}
+
+a:active {
+    color: red;
+}
